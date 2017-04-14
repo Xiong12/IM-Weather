@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:paddingTop="15dp"
+              android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/user2"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:hint="请输入好友ID"
+        android:textSize="15sp"/>
+
+    <Button
+        android:id="@+id/friend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="好友"/>
+
+    <Button
+        android:id="@+id/customer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="客服 Xiong"
+        android:textAllCaps="false"/>
+    <Button
+        android:id="@+id/taolun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="讨论组"
+        android:textAllCaps="false"/>
+    <Button
+        android:id="@+id/coolweather"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="天气"
+        android:textAllCaps="false"/>
+    <Button
+        android:id="@+id/user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="我的"
+        android:textAllCaps="false"/>
+</LinearLayout>
